@@ -202,7 +202,7 @@ h2 {
     width: 300px;*/ /* Set width for form inputs */
     /*display: block;*/ /* Display inputs as block elements */
     /*margin-bottom: 10px;*/ /* Add space between inputs */
-/*}
+/*}*/
 
 /*.contact form label, .contact form input[type="text"], .contact form input[type="email"], .contact form textarea, .contact form input[type="submit"] {
     flex: 1;*/ /* Each form element occupies equal space */
