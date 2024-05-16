@@ -1,0 +1,226 @@
+/* styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px; /* Increase the padding to make the header taller */
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to each end of the header */
+}
+
+/*fix the header position */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header appears above other content */
+}
+
+.logo {
+    width: 100px; /* width of the logo */
+    height: auto; /*  browser automatically calculates the height based on the aspect ratio of the original image */
+    margin-right: 20px; /* separate the logo from the text */
+}
+
+header h1 {
+    margin-bottom: 20px; /* space of 20px between the <h1> element and the <nav> */
+    margin: 0;
+}
+
+.header-nav {
+    text-align: right; /* Align the content of the nav to the right */
+}
+
+nav ul {
+    list-style-type: none; /* Remove the default list styles */
+    display: inline-block; /* Display the list horizontally */
+    margin: 0;             /* Remove default margin */
+    padding: 0;            /* Remove default padding */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-left: 20px;     /* Add spacing/margin between list items */
+}
+
+/* Adjust the margin for the first child to align with the edge */
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin for the first list item */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+section h2, h5{
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for color change */
+}
+
+.nav-link:hover {
+    color: #428edf; /* Color change on hover */
+}
+
+
+.explore-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none; /* Removes default underline from anchor tags */
+    display: inline-block; /* Makes the button behave like a block element */
+    border-radius: 5px; /* Adds rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adds transition for hover effect */
+}
+
+/* Style the button on hover */
+.explore-button:hover,
+.explore-button:focus {
+    background-color: #286eb9; /* Darker shade on hover */
+    color: #000;
+}
+
+
+/* for course */
+#Course {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h2 {
+    text-align: center;
+}
+.course {
+    margin-bottom: 20px;
+}
+.course h2 {
+    margin-bottom: 10px;
+}
+.course p {
+    margin-bottom: 5px;
+}
+
+/* CSS styling for Fee details */
+#Fee {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+#Fee h1 {
+    text-align: center;
+}
+.fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.fee-table th, .fee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.fee-table th {
+    background-color: #f2f2f2;
+}
+
+
+/* CSS for the Contact Us section background */
+.contact {
+    /*background-color: #f0f0f0;*/
+    text-align: center;
+    background-image: url('https://st4.depositphotos.com/3367263/19970/i/450/depositphotos_199707812-stock-photo-digital-composite-books-graduation-hat.jpg');
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    color: #fff; /* text color */
+    padding: 50px 0; /* space around the content within the section */
+    background-color: transparent; /* Make the background color transparent */
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.contact h2 {
+    margin-bottom: 20px; /* margin between h2 and form */
+    background-color: transparent; /* Make the background color transparent */
+}
+
+.contact form {
+    /*margin-bottom: 20px;*/ /* margin between h2 and form */
+    display: flex; /* Use flexbox for the form */
+    /*flex-wrap: wrap;*/ /* Allows wrapping of form elements */
+    flex-direction: column; /* Align items vertically within the form */
+    align-items: flex-start; /* Align items to the start (left) */
+}
+.contact form label {
+    display: inline-block; /* Display labels as inline-block elements */
+    width: 100px; /* Set a fixed width for the labels */
+    margin-bottom: 10px; /* space between labels */
+}
+
+.contact form input[type="text"], .contact form input[type="email"], .contact form textarea {
+    width: 300px; /* Set width for form inputs */
+    /*display: block;*/ /* Display inputs as block elements */
+    margin-bottom: 10px; /* Add space between inputs */
+}
+
+/*
+.contact form input[type="submit"] {
+    width: 300px;*/ /* Set width for form inputs */
+    /*display: block;*/ /* Display inputs as block elements */
+    /*margin-bottom: 10px;*/ /* Add space between inputs */
+/*}*/
+
+/*.contact form label, .contact form input[type="text"], .contact form input[type="email"], .contact form textarea, .contact form input[type="submit"] {
+    flex: 1;*/ /* Each form element occupies equal space */
+/*}*/
+
+/* CSS for the submit button */
+input[type="submit"] {
+    background-color: #4f7a1e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background color and text color */
+}
+
+/* CSS for the submit button on hover */
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #286eb9; /* Change background color on hover/focus */
+    color: #fff; /* Change text color on hover/focus */
+}
