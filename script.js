@@ -18,7 +18,7 @@ navLinks.forEach(link => {
 //color code for blush pink: #FFC0CB
 
 
-
+// Get the header element
 const header = document.querySelector('header');
 
 // Get the initial position of the header
