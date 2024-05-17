@@ -1,0 +1,92 @@
+/* styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #042e55;
+    color: #fff;
+    padding: 20px; /* Increase the padding to make the header taller */
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to each end of the header */
+}
+
+/*fix the header position */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header appears above other content */
+}
+
+.logo {
+    width: 100px; /* width of the logo */
+    height: auto; /*  browser automatically calculates the height based on the aspect ratio of the original image */
+    margin-right: 20px; /* separate the logo from the text */
+}
+
+header h1 {
+    /*margin-bottom: 20px;*/ /* space of 20px between the <h1> element and the <nav> */
+    margin: 0;
+}
+
+.header-nav {
+    text-align: right; /* Align the content of the nav to the right */
+}
+
+nav ul {
+    list-style-type: none; /* Remove the default list styles */
+    display: inline-block; /* Display the list horizontally */
+    margin: 0;             /* Remove default margin */
+    padding: 0;            /* Remove default padding */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-left: 20px;     /* Add spacing/margin between list items */
+}
+
+/* Adjust the margin for the first child to align with the edge */
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin for the first list item */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/*nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}*/
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for color change */
+}
+
+.nav-link:hover {
+    color: #4f7a1e; /* Color change on hover */
+}
+
+footer {
+    background-color: #042e55;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
