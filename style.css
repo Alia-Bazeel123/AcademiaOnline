@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #042e55;
     color: #fff;
     padding: 20px; /* Increase the padding to make the header taller */
     text-align: center;
@@ -79,7 +79,7 @@ section h2, h5{
 }
 
 footer {
-    background-color: #333;
+    background-color: #042e55;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -92,12 +92,12 @@ footer {
 }
 
 .nav-link:hover {
-    color: #428edf; /* Color change on hover */
+    color: #4f7a1e; /* Color change on hover */
 }
 
 
 .explore-button {
-    background-color: #333;
+    background-color: #042e55;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -110,7 +110,7 @@ footer {
 /* Style the button on hover */
 .explore-button:hover,
 .explore-button:focus {
-    background-color: #286eb9; /* Darker shade on hover */
+    background-color: #4f7a1e; /* Darker shade on hover */
     color: #000;
 }
 
@@ -210,7 +210,7 @@ h2 {
 
 /* CSS for the submit button */
 input[type="submit"] {
-    background-color: #4f7a1e;
+    background-color: #042e55;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -221,7 +221,7 @@ input[type="submit"] {
 /* CSS for the submit button on hover */
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    background-color: #286eb9; /* Change background color on hover/focus */
+    background-color: #4f7a1e; /* Change background color on hover/focus */
     color: #fff; /* Change text color on hover/focus */
 }
 

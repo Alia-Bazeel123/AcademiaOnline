@@ -5,7 +5,7 @@ const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(link => {
     link.addEventListener('mouseenter', () => {
         // Change text color when cursor enters the link
-        link.style.color = '#428edf'; //color changes to blue
+        link.style.color = '#4f7a1e'; //color changes to green
     });
 
     link.addEventListener('mouseleave', () => {
