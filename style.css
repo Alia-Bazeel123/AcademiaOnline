@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    /*background-image: url('https://img.freepik.com/premium-vector/simple-pattern-transparent-background-theme-school-learning-education_576736-64.jpg');*/
+    background-image: url('https://t3.ftcdn.net/jpg/05/00/34/58/360_F_500345899_4OqmtspFst6SRnNQvLj7h7TfKOrBwTer.jpg');
 }
 
 header {
@@ -95,10 +95,25 @@ footer {
     color: #4f7a1e; /* Color change on hover */
 }
 
+/* Set background image for #Home section */
+#Home {
+    background-image: url('https://img.freepik.com/premium-photo/blank-yellow-sticky-note-pencil-navy-blue-table-background_7189-3543.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the section full height of the viewport */
+}
+#Home h2{background-color: transparent;}
+#Home h4{background-color: transparent;}
 
 .explore-button {
-    background-color: #042e55;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border: none;
     padding: 10px 20px;
     text-decoration: none; /* Removes default underline from anchor tags */
@@ -114,13 +129,50 @@ footer {
     color: #000;
 }
 
+.uni-button {
+    background-color: #042e55;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none; /* Removes default underline from anchor tags */
+    display: inline-block; /* Makes the button behave like a block element */
+    border-radius: 5px; /* Adds rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adds transition for hover effect */
+}
+
+/* Style the button on hover */
+.uni-button:hover,
+.uni-button:focus {
+    background-color: #4f7a1e; /* Darker shade on hover */
+    color: #000;
+}
+
+.alumni-button {
+    background-color: #042e55;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none; /* Removes default underline from anchor tags */
+    display: inline-block; /* Makes the button behave like a block element */
+    border-radius: 5px; /* Adds rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adds transition for hover effect */
+}
+
+/* Style the button on hover */
+.alumni-button:hover,
+.alumni-button:focus {
+    background-color: #4f7a1e; /* Darker shade on hover */
+    color: #000;
+}
 
 /* for course */
 #Course {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
+    /*background-color: transparent;*/
 }
+/*#Course h2{background-color: transparent;}*/
 h2 {
     text-align: center;
 }
@@ -154,7 +206,7 @@ h2 {
     text-align: left;
 }
 .fee-table th {
-    background-color: #f2f2f2;
+    background-color: #c97a20;
 }
 
 
