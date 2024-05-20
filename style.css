@@ -20,6 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Align items to each end of the header */
+    position: fixed;
 }
 
 /*fix the header position */
@@ -184,6 +185,24 @@ h2 {
 }
 .course p {
     margin-bottom: 5px;
+}
+
+.tutor-button {
+    background-color: #042e55;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none; /* Removes default underline from anchor tags */
+    display: inline-block; /* Makes the button behave like a block element */
+    border-radius: 5px; /* Adds rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adds transition for hover effect */
+}
+
+/* Style the button on hover */
+.tutor-button:hover,
+.tutor-button:focus {
+    background-color: #4f7a1e; /* Darker shade on hover */
+    color: #000;
 }
 
 /* CSS styling for Fee details */
