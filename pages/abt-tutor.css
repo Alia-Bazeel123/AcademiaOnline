@@ -1,0 +1,74 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #042e55;
+    color: #fff;
+    padding: 20px;        /* Increase the padding to make the header taller */
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* Align items to each end of the header */
+}
+
+/* Fix the header position */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;   /* Ensure the header appears above other content */
+}
+
+/* Logo styles */
+.logo {
+    width: 100px; /* width of the logo */
+    height: auto; /*  browser automatically calculates the height based on the aspect ratio of the original image */
+    margin-right: 20px; /* separate the logo from the text */
+}
+
+/* Title styles */
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+/* Tutor section styles */
+.tutor {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: 120px; /* Added margin to avoid overlap with fixed header */
+}
+
+/* Individual tutor profile styles */
+.tutor-profile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #042e55;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
