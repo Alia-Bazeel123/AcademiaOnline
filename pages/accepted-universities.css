@@ -41,48 +41,6 @@ header h1 {
     margin: 0;
 }
 
-.header-nav {
-    text-align: right; /* Align the content of the nav to the right */
-}
-
-nav ul {
-    list-style-type: none; /* Remove the default list styles */
-    display: inline-block; /* Display the list horizontally */
-    margin: 0;             /* Remove default margin */
-    padding: 0;            /* Remove default padding */
-}
-
-nav ul li {
-    display: inline-block; /* Display list items horizontally */
-    margin-left: 20px;     /* Add spacing/margin between list items */
-}
-
-/* Adjust the margin for the first child to align with the edge */
-nav ul li:first-child {
-    margin-left: 0; /* Remove margin for the first list item */
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-/*nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}*/
-
-.nav-link {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease; /* Add transition for color change */
-}
-
-.nav-link:hover {
-    color: #4f7a1e; /* Color change on hover */
-}
-
 footer {
     background-color: #042e55;
     color: #fff;
