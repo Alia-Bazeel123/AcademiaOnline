@@ -1,19 +1,3 @@
-// Linking all navigation links
-const navLinks = document.querySelectorAll('.nav-link');
-
-// Adding event listeners to each navigation link
-navLinks.forEach(link => {
-    link.addEventListener('mouseenter', () => {
-        // Change text color when cursor enters the link
-        link.style.color = '#4f7a1e'; //color changes to green
-    });
-
-    link.addEventListener('mouseleave', () => {
-        // Change text color back when cursor leaves the link
-        link.style.color = ''; // Empty string restores the default color
-    });
-});
-
 // Pin header while scrolling
 // Get the header element
 const header = document.querySelector('header');
