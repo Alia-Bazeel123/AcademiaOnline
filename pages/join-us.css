@@ -1,0 +1,89 @@
+/* styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*background*/
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/05/00/34/58/360_F_500345899_4OqmtspFst6SRnNQvLj7h7TfKOrBwTer.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+header {
+    background-color: #042e55;
+    color: #fff;
+    padding: 20px; /* Increase the padding to make the header taller */
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to each end of the header */
+}
+
+/*fix the header position */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header appears above other content */
+}
+
+.logo {
+    width: 100px; /* width of the logo */
+    height: auto; /*  browser automatically calculates the height based on the aspect ratio of the original image */
+    margin-right: 20px; /* separate the logo from the text */
+}
+
+header h1 {
+    /*margin-bottom: 20px;*/   /* space of 20px between the <h1> element and the <nav> */
+    margin: 0;
+}
+
+.join-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.join-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.join-section p {
+    margin-bottom: 10px;
+}
+
+.join-section ol {
+    margin-bottom: 20px;
+    padding-left: 20px; /* Adds padding to the left */
+}
+
+.join-section li {
+    margin-bottom: 5px;
+}
+
+/* Section styling */
+section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.join-image{
+    align-items: center;
+}
+
+footer {
+    background-color: #042e55;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
