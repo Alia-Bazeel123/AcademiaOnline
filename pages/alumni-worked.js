@@ -19,3 +19,4 @@ function updateHeaderPosition() {
 // Listen for scroll events and call the updateHeaderPosition function
 window.addEventListener('scroll', updateHeaderPosition);
 
+
