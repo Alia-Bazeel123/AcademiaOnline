@@ -1,5 +1,5 @@
 /* styles */
-* {
+* {        /*This helps ensure consistent box sizing across different elements and devices.*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +17,7 @@ header {
     padding: 20px; /* Increase the padding to make the header taller */
     text-align: center;
     height: 100px;
-    display: flex;
+    display: flex;    /*The use of flex layout in the header makes it adaptable to different screen sizes.*/
     align-items: center;
     justify-content: space-between; /* Align items to each end of the header */
     position: fixed;
@@ -108,7 +108,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Makes the section full height of the viewport */
-}
+}/*Using background-size: cover and background-position: center ensures the background image scales well on different screens.*/
 #Home h2{background-color: transparent;}
 #Home h4{background-color: transparent;}
 
@@ -121,7 +121,7 @@ footer {
     display: inline-block; /* Makes the button behave like a block element */
     border-radius: 5px; /* Adds rounded corners */
     transition: background-color 0.3s ease, color 0.3s ease; /* Adds transition for hover effect */
-}
+}/*Buttons are styled with flexible properties that ensure they look good on different screen sizes.*/
 
 /* Style the button on hover */
 .explore-button:hover,
@@ -185,7 +185,7 @@ footer {
 }
 
 /* for course */
-#Course {
+#Course { /*Sections use max-width and margin: auto to center content and ensure it scales appropriately.*/
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
@@ -314,3 +314,18 @@ input[type="submit"]:focus {
     color: #fff; /* Change text color on hover/focus */
 }
 
+
+/*Alternate Responsive Design code for css*/
+/*@media (max-width: 600px) { */
+    /* Styles for smaller screens */
+/*    body {
+        font-size: 14px;
+    }
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+    .logo {
+        width: 50px;
+    }
+} */
